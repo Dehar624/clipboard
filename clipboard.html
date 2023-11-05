@@ -1,0 +1,353 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <style>
+            .box{
+                position:relative;
+                display:inline-block;
+            }
+            .box .onbox{
+                visibility:hidden;
+                width:140px;
+                background-color:#555;
+                color:#fff;
+                text-align:center;
+                border-radius:6px;
+                padding:5px;
+                position:absolute;
+                z-index:1;
+                bottom:150%;
+                left:50%;
+                margin-left:-75px;
+                opacity:0;
+                transition:opacity 0.3s;
+            }
+            .box .onbox::after{
+                content:"";
+                position:absolute;
+                top:100%;
+                left:50%;
+                margin-left:-5px;
+                border-width:5px;
+                border-style:solid;
+                border-color:#555 transparent transparent transparent;
+            }
+            .box:hover .onbox{
+                visibility:visible;
+                opacity:1;
+            }
+        </style>
+    </head>
+    <body>
+        <br><br>
+        <input type="text" value="" id="parcel1">
+        <div class="box">
+            <button onclick="toGo(1)" onmouseout="haveGone(1)">
+                <span class="onbox" id="stuff1">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel2">
+        <div class="box">
+            <button onclick="toGo(2)" onmouseout="haveGone(2)">
+                <span class="onbox" id="stuff2">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel3">
+        <div class="box">
+            <button onclick="toGo(3)" onmouseout="haveGone(3)">
+                <span class="onbox" id="stuff3">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel4">
+        <div class="box">
+            <button onclick="toGo(4)" onmouseout="haveGone(4)">
+                <span class="onbox" id="stuff4">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <br><br>
+        <input type="text" value="" id="parcel5">
+        <div class="box">
+            <button onclick="toGo(5)" onmouseout="haveGone(5)">
+                <span class="onbox" id="stuff5">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel6">
+        <div class="box">
+            <button onclick="toGo(6)" onmouseout="haveGone(6)">
+                <span class="onbox" id="stuff6">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel7">
+        <div class="box">
+            <button onclick="toGo(7)" onmouseout="haveGone(7)">
+                <span class="onbox" id="stuff7">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel8">
+        <div class="box">
+            <button onclick="toGo(8)" onmouseout="haveGone(8)">
+                <span class="onbox" id="stuff8">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <br><br>
+        <input type="text" value="" id="parcel9">
+        <div class="box">
+            <button onclick="toGo(9)" onmouseout="haveGone(9)">
+                <span class="onbox" id="stuff9">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel10">
+        <div class="box">
+            <button onclick="toGo(10)" onmouseout="haveGone(10)">
+                <span class="onbox" id="stuff10">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel11">
+        <div class="box">
+            <button onclick="toGo(11)" onmouseout="haveGone(11)">
+                <span class="onbox" id="stuff11">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel12">
+        <div class="box">
+            <button onclick="toGo(12)" onmouseout="haveGone(12)">
+                <span class="onbox" id="stuff12">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <br><br>
+        <input type="text" value="" id="parcel13">
+        <div class="box">
+            <button onclick="toGo(13)" onmouseout="haveGone(13)">
+                <span class="onbox" id="stuff13">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel14">
+        <div class="box">
+            <button onclick="toGo(14)" onmouseout="haveGone(14)">
+                <span class="onbox" id="stuff14">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel15">
+        <div class="box">
+            <button onclick="toGo(15)" onmouseout="haveGone(15)">
+                <span class="onbox" id="stuff15">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel16">
+        <div class="box">
+            <button onclick="toGo(16)" onmouseout="haveGone(16)">
+                <span class="onbox" id="stuff16">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <br><br>
+        <input type="text" value="" id="parcel17">
+        <div class="box">
+            <button onclick="toGo(17)" onmouseout="haveGone(17)">
+                <span class="onbox" id="stuff17">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel18">
+        <div class="box">
+            <button onclick="toGo(18)" onmouseout="haveGone(18)">
+                <span class="onbox" id="stuff18">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel19">
+        <div class="box">
+            <button onclick="toGo(19)" onmouseout="haveGone(19)">
+                <span class="onbox" id="stuff19">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel20">
+        <div class="box">
+            <button onclick="toGo(20)" onmouseout="haveGone(20)">
+                <span class="onbox" id="stuff20">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <br><br>
+        <input type="text" value="" id="parcel21">
+        <div class="box">
+            <button onclick="toGo(21)" onmouseout="haveGone(21)">
+                <span class="onbox" id="stuff21">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel22">
+        <div class="box">
+            <button onclick="toGo(22)" onmouseout="haveGone(22)">
+                <span class="onbox" id="stuff22">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel23">
+        <div class="box">
+            <button onclick="toGo(23)" onmouseout="haveGone(23)">
+                <span class="onbox" id="stuff23">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel24">
+        <div class="box">
+            <button onclick="toGo(24)" onmouseout="haveGone(24)">
+                <span class="onbox" id="stuff24">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <br><br>
+        <input type="text" value="" id="parcel25">
+        <div class="box">
+            <button onclick="toGo(25)" onmouseout="haveGone(25)">
+                <span class="onbox" id="stuff25">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel26">
+        <div class="box">
+            <button onclick="toGo(26)" onmouseout="haveGone(26)">
+                <span class="onbox" id="stuff26">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel27">
+        <div class="box">
+            <button onclick="toGo(27)" onmouseout="haveGone(27)">
+                <span class="onbox" id="stuff27">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel28">
+        <div class="box">
+            <button onclick="toGo(28)" onmouseout="haveGone(28)">
+                <span class="onbox" id="stuff28">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <br><br>
+        <input type="text" value="" id="parcel29">
+        <div class="box">
+            <button onclick="toGo(29)" onmouseout="haveGone(29)">
+                <span class="onbox" id="stuff29">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel30">
+        <div class="box">
+            <button onclick="toGo(30)" onmouseout="haveGone(30)">
+                <span class="onbox" id="stuff30">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel31">
+        <div class="box">
+            <button onclick="toGo(31)" onmouseout="haveGone(31)">
+                <span class="onbox" id="stuff7">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <input type="text" value="" id="parcel32">
+        <div class="box">
+            <button onclick="toGo(32)" onmouseout="haveGone(32)">
+                <span class="onbox" id="stuff32">
+                    Copy?
+                </span>
+                Copy!
+            </button>
+        </div>
+        <script>
+            function toGo(cursor){
+                var package=document.getElementById("parcel"+cursor);
+                package.select();
+                package.setSelectionRange(0,99999);
+                navigator.clipboard.writeText(package.value);
+                var box=document.getElementById("stuff");
+                box.innerHTML="Copied: "+package.value;
+            }
+            function haveGone(cursor){
+                var box=document.getElementById("stuff"+cursor);
+                box.innerHTML="Copy?";
+            }
+        </script>
+    </body>
+</html>
